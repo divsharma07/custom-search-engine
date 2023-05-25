@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW5 WebUI</title>
+</head>
+<body>
+<h2>Web UI for Manual Assessment of Documents Relevancy</h2>
+<form action="{{ url_for("grade_document") }}" method="post">
+    <h3>Current URL's topic is: {{ topic }}</h3>
+    <label for="current_url">Current URL:</label>
+    <select name="current_url" id="current_url" method="GET" action="/">
+        <option value="{{ urls[0] }}" selected>{{ urls[0] }}</option>
+        {% for url in urls[1:] %}
+            <option value="{{ url }}">{{ url }}</option>
+        {% endfor %}
+    </select>
+    <br><br>
+
+    <label for="relevancy">Relevancy:</label>
+    <select name="relevancy" id="relevancy" method="GET" action="/">
+        <option value="2" selected>Very Relevant - 2</option>
+        <option value="1">Relevant - 1</option>
+        <option value="0">Non-Relevant - 0</option>
+    </select>
+    <br><br>
+
+    <a href="{{ urls[0] }}" target="_blank">Visit Current URL</a>
+    <br><br>
+    <button type="submit">Submit</button>
+
+    {% if success == True%}
+    <p> Successfully graded doc: {{graded_doc}}</p>
+    {% endif %}
+
+    <h3 style="color: green">Documents Graded: {{ 800 - length_of_urls }}</h3>
+    <h3 style="color: orange">Documents Remaining: {{ length_of_urls }}</h3>
+</form>
+
+</body>
+</html>
