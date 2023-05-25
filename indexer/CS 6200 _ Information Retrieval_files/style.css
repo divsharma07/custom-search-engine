@@ -1,0 +1,338 @@
+body
+{
+    background-color: white;
+}
+.bgcolor
+{
+    background-color: #defce7;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+
+    margin: 0;
+
+    color: #666;
+}
+.navbar a
+{
+    cursor: pointer;
+}
+.navbar
+{
+    padding: 0;
+}
+.navbar .navbar-brand
+{
+    margin-left: 20px;
+    padding: 15px 5px;
+}
+.navbar .nav-item
+{
+    padding: 15px 0;
+}
+.navbar .nav-item:hover
+{
+    background: white;
+}
+.navbar .nav-item:hover .nav-link
+{
+    color: #343a40 !important;
+}
+h1,
+h2,
+h3,
+h4
+{
+    color: #111;
+}
+h2
+{
+    font: bold Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1.55em;
+    font-weight: normal;
+
+    padding: 3pt 0 6px 0;
+}
+h2.title {
+    color: #bb1c1c;
+}
+h2.myTitle
+{
+    font: bold Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1.55em;
+    font-weight: normal;
+
+    padding: 3pt 0 6px 0;
+}
+h3
+{
+    font: bold Verdana, Arial, Helvetica,  sans-serif;
+    font-size: 1.3em;
+
+    margin-bottom: 1em;
+
+    letter-spacing: 1.5px;
+}
+h4
+{
+    font-size: 1.1em;
+    font-weight: normal;
+
+    margin-bottom: .8em;
+    padding: 3pt 0 6px 0;
+}
+p,
+blockquote
+{
+    line-height: 1.3em;
+
+    margin-bottom: 1.4em;
+
+    text-align: justify;
+}
+div.myContent
+{
+    margin-left: 3em;
+}
+blockquote
+{
+    font-style: italic;
+
+    margin-right: 2em;
+    margin-left: 2em;
+}
+ul
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 3em;
+
+    text-align: justify;
+}
+.indexUL
+{
+    margin-left: 14em !important;
+}
+ul li
+{
+    padding: 0 0 3pt 0;
+}
+hr
+{
+    color: #111;
+
+    size: 25px;
+}
+ol
+{
+    margin-left: 3em;
+}
+a
+{
+    text-decoration: none;
+
+    color: #bb1c1c;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+img
+{
+    border: 4px solid #c90404;
+}
+#main-content
+{
+    margin-top: 25px;
+}
+/* Boxed Style */
+.boxed, .paragraph
+{
+    margin-bottom: 20px;
+}
+.boxed .title
+{
+    font-size: 1.4em;
+
+    height: 25px;
+    margin: 0;
+    padding: 8px 0 10px 0;
+
+    color: #bb1c1c;
+}
+.boxed .content
+{
+    padding: 5px;
+}
+/* Post */
+.post .title
+{
+    padding: 8px 0 10px 0;
+}
+.post .meta p
+{
+    font-size: 9px;
+    line-height: normal;
+}
+.readtable,
+.readtable td,
+.readtable th
+{
+    color: black;
+}
+#guide
+{
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+#guide td
+{
+    height: 250px;
+    padding: 10px;
+
+    text-align: top;
+    vertical-align: top;
+
+    border: 1px solid black;
+}
+/* Header */
+#header
+{
+    /*width: 775px;
+height: 100px;*/
+    margin: 0 auto;
+    padding: 8px 0 10px 0;
+}
+/* Header > Logo */
+#logo
+{
+    /*text-align: center;*/
+    /*width: 775px;
+height: 50px;*/
+}
+#logo h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7em;
+    font-weight: bold;
+
+    margin: 0;
+    padding: 0 0 0 1em;
+
+    text-align: center;
+    text-align: left;
+    /*text-transform: uppercase;*/
+
+    color: #d41b2c;
+    text-shadow: 1px 1px #888;
+}
+#logo h2
+{
+    font-size: 1.3em;
+
+    margin: 0;
+    padding: 0 0 0 0;
+
+    text-align: center;
+
+    color: #d41b2c;
+}
+#logo img
+{
+    border: none;
+}
+#logo a
+{
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: #d41b2c;
+}
+/* Header > Menu */
+/*
+#menu {
+float: left;
+width: 775px;
+height: 25px;
+}
+#menu ul {
+margin: 0;
+list-style: none;
+}
+*/
+#menu li
+{
+    display: inline;
+}
+#menu a
+{
+    font-size: 11px;
+    font-weight: bold;
+
+    display: block;
+    float: left;
+
+    width: 95px;
+    height: 25px;
+    padding: 10 10 10 10;
+    /*background: url(images/img03.gif) no-repeat;*/
+
+    text-align: center;
+
+    color: #050505;
+}
+#menu a:hover,
+#menu .active a
+{
+    color: #bf1616;
+}
+/* Content */
+#content
+{
+    /* width: 900px; */
+    margin: 0 auto;
+}
+#content p
+{
+    padding: 2pt 0 2pt 0;
+}
+/* Content > Main */
+#main
+{
+    /* float: right;
+width: 480px; */
+}
+#main2
+{
+    float: right;
+
+    width: 700px;
+}
+
+/* Footer */
+footer
+{
+    clear: both;
+    /* position: absolute; */
+    bottom: 0;
+    padding: 20px 50px;
+    margin: 10px 0 0 0;
+    width: 100%;
+    height: 120px;
+}
+
+
+
+li {
+    margin-top: 5px;
+}
+
+.nav-semester{
+    margin-right: 15px;
+    color: white;
+}

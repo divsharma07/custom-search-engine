@@ -1,0 +1,8 @@
+@relation ML
+@attribute ES NUMERIC
+@attribute OKAPI_TF NUMERIC
+@attribute TF_IDF NUMERIC
+@attribute OKAPI_BM25 NUMERIC
+@attribute LM_LAPLACE NUMERIC
+@attribute LM_JM NUMERIC
+@attribute label NUMERIC
